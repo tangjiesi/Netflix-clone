@@ -1,22 +1,36 @@
-![Front page](assets/front-page.png)
+### 自訂水平滾動
 
-![Movie rankings](assets/movie-rankings.png)
-根據用戶點擊"前進"/"後退"按鈕調整滾動位置。
-根據容器寬度與元素寬度動態計算滾動距離，並處理滾動邊界，確保按鈕顯示不會被遮擋。
+- 使用「前進 / 後退」按鈕控制水平滾動。
+- 根據容器與元素寬度計算滾動距離，處理邊界避免內容被遮擋。
+- 提升橫向瀏覽的滑順度與可用性。
+  ![Movie rankings](assets/movie-rankings.png)
 
-![Modal](assets/modal.png)
-點擊電影排行榜項目即可開啟 Modal，顯示完整影片資訊。
-支援背景點擊或按鈕關閉視窗。
+### 彈出視窗
 
-![Benefit](assets/benefit.png)
+- 點擊排行榜項目即可開啟 Modal，顯示完整影片資訊。
+- 支援背景點擊或按鈕關閉視窗。
+  ![Modal](assets/modal.png)
 
-![FAQ](assets/FAQ.png)
-![Accordion](assets/accordion.png)
-當用戶點擊問題按鈕時，根據當前狀態顯示或隱藏問題內容，並確保只有一個問題處於顯示狀態。
+### FAQ 手風琴
 
-![Footer](assets/footer.png)
+- 點擊問題即可展開或收合內容。
+- 保證同一時間僅有一個問題展開。
+  ![FAQ](assets/FAQ.png)
+  ![Accordion](assets/accordion.png)
 
-![Hide button](assets/hide-button.png)
-![Show button](assets/show-button.png)
-根據視窗大小動態啟動或停止滾動事件監聽，並使用節流技術優化效能。
-當視窗寬度小於等於 600px 時，啟動監聽滾動事件，根據滾動位置顯示或隱藏按鈕，當視窗大於 600px 時，停止監聽以避免不必要的效能消耗。節流函式確保滾動事件不會過於頻繁地觸發，提升整體性能與流暢度。
+### 小螢幕按鈕顯示/隱藏
+
+- 視窗寬度 ≤ 600px 時啟用滾動事件監聽。
+- 根據滾動位置動態顯示或隱藏操作按鈕。
+- 使用節流技術避免過於頻繁觸發，提高效能。
+  ![Hide button](assets/hide-button.png)
+  ![Show button](assets/show-button.png)
+
+### 其他區塊
+
+- 首頁展示  
+  ![Front page](assets/front-page.png)
+- 會員優惠  
+  ![Benefit](assets/benefit.png)
+- 網站底部資訊  
+  ![Footer](assets/footer.png)
