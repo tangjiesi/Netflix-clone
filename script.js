@@ -80,7 +80,7 @@ closeBtns.forEach((btn) => btn.addEventListener("click", closeModal));
 
 overlay.addEventListener("click", closeModal);
 
-// 節流降地事件觸發頻率 減緩效能
+// 節流降低事件觸發頻率 減緩效能
 function throttle(func, delay) {
   let lastTime = 0;
   return function (...args) {
