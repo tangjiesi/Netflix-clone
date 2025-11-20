@@ -15,7 +15,6 @@
 
 - 點擊問題即可展開或收合內容。
 - 保證同一時間僅有一個問題展開。
-  ![FAQ](assets/FAQ.png)
   ![Accordion](assets/accordion.png)
 
 ### 小螢幕按鈕顯示/隱藏
